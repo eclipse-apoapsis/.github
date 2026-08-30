@@ -50,11 +50,10 @@ Commit messages should be written in the imperative mood.
 For example, use "Add feature" instead of "Added feature".
 Also, they should be written in impersonal form, meaning that you should not use terms like "I" or "we".
 
-This project requires that commit messages for the [conventional commits](https://www.conventionalcommits.org/) specification.
-This means that each commit message should follow the format `<type>(<scope>): <description>`.
+This project requires that commit messages follow the [conventional commits](https://www.conventionalcommits.org/) specification.
+This means that each commit message title should be in the format `<type>(<scope>): <description>`.
 The description should start with a capital letter and not end with a period.
-
-> The length of the description line shall not exceed 75 characters.
+The length of the commit message title must not exceed 75 characters.
 
 #### Types
 
@@ -128,8 +127,7 @@ If the commit is related to an issue without fixing it, it should still be refer
 
 #### Sign-off
 
-Commit body shall end with a sign-off line specifying the real name and email 
-of the committer. Example:
+The commit message body shall end with a sign-off line specifying the real name and email of the committer, for example:
 ```
 Signed-off-by: Firstname Lastname <first.last@example.com>
 ```
